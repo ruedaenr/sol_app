@@ -1,13 +1,23 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/*Colors for Nav Bar & Tabs*/
+.navbar-inverse{
+  background-color: #FF8C00;
+  border-color: #050505;
+}
+
+.navbar .nav > li > a {
+  color: #DC143C
+}
+
 /* header */
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #FFD700;
+  color: #DC143C;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -54,12 +64,12 @@ footer ul li {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  margin-top: 30;
 }
 
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-top: 30;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -76,4 +86,9 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+}
+
+body {
+     padding-top: 60px;
+     background-color: #FFF8D7
 }
