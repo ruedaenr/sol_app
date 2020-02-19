@@ -1,6 +1,8 @@
 <% provide(:title, "Home") %>
 <h1>SOL Website</h1>
 <h2>
+    <%= link_to image_tag(@image_array[@rand_result], width: '400') %> <br/>
+    <%= link_to "New Random Image", '/home'%> <br/>
     This is the home page for the
     SOL student group, on campus.
   </h2>
