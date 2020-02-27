@@ -26,4 +26,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   end
 
+  test "Random Image Generator" do
+    get home_path
+    assert_equal (0..4).to_a.shuffle.first, assigns(:rand_result)
+  end
+
 end
