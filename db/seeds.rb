@@ -3,4 +3,5 @@
 #
 # Examples:
 User.create(name: "Enrique Rueda", email: "ruedaenr@grinnell.edu")
+User.create(name: "Michael Hartl", email: "hartl@railstutorial.org")
 #   Character.create(name: 'Luke', movie: movies.first)
