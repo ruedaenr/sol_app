@@ -2,5 +2,5 @@
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
-User.create(name: "Enrique Rueda", email: "ruedaenr@grinnell.edu"
+User.create(name: "Enrique Rueda", email: "ruedaenr@grinnell.edu")
 #   Character.create(name: 'Luke', movie: movies.first)
